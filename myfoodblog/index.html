@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Blog</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">🍴 Foodie Blog</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <input type="text" id="search" placeholder="Search recipes...">
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <h1>Welcome to Foodie Blog</h1>
+    <p>Your daily dose of delicious recipes</p>
+</section>
+
+<!-- RECIPE GRID -->
+<section id="recipes">
+    <h2 class="section-title">Featured Recipes</h2>
+    <div class="recipe-grid">
+        <div class="recipe-card">
+            <img src="images/chocolatecake.jpg" alt="Recipe 1">
+            <h3>Chocolate Cake</h3>
+            <p>Rich, moist, and decadent dessert for any occasion.</p>
+            <a href="chocolatecake.html"><button>Read More</button></a>
+
+
+        </div>
+        <div class="recipe-card">
+            <img src="images/samosa.jpg" alt="Recipe 2">
+            <h3>samosa</h3>
+            <p>Perfectly fry and balance of savory,spicy flavors.</p>
+             <a href="samosa.html"><button>Read More</button></a>
+
+        </div>
+        <div class="recipe-card">
+            <img src="images/dabeli.jpg" alt="Recipe 3">
+            <h3>Dabeli</h3>
+            <p>consists of a spicy mashed potato filling, flavored.</p>
+            <a href="dabeli.html"><button>Read More</button></a>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Foodie Blog | Designed with me</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal">
+    <div class="modal-content">
+        <span id="close">&times;</span>
+        <h2>Full Recipe</h2>
+        <p>This is where the full recipe will appear...</p>
+        <a href="index.html" class="back-btn">⬅ Back to Recipes</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
